@@ -1,7 +1,7 @@
 body {
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 1em;
 }
 
 .container {
@@ -10,12 +10,39 @@ body {
 }
 
 nav {
-  margin: 0 auto;
+  background-color: black;
+  margin: 0;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 420px;
+  width: 405px;
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 55px;
+  width: 100%;
+}
+
+.location {
+  box-sizing: border-box;
+  border:1px solid #000;
+  background-color: #bfbfbf;
+  height: 80px;
+}
+
+.location:hover {
+  background-color: #868484;
+}
+
+.content {
+  display: inline-block;
+  height: 100%;
+  width: 85%;
+  margin-top: 17px;
+  margin-left: 17px;
+}
+
+.arrow {
+  vertical-align: middle;
+  float: right;
+  margin: 25px 10px 10px 12px;
 }
